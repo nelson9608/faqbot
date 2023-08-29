@@ -25,19 +25,7 @@ dependencies = [
     "aiosqlite>=0.17.0",
     "aiofiles>=22.1.0",
     "deltabot-cli @ git+https://github.com/deltachat-bot/deltabot-cli-py.git",
-]
-
-[project.optional-dependencies]
-dev = [
-  "black",
-  "mypy",
-  "isort",
-  "pylint",
-  "pylama",
-  "pytest",
-  "types-aiofiles",
-]
-
+] 
 [project.scripts]
 faqbot = "faqbot:main"
 
